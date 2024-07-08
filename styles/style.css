@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
 }
 
-p{
+p {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -14,7 +14,7 @@ p{
     line-height: 30px;
 }
 
-button{
+button {
     background: #E55473;
     border-radius: 8px;
     color: #fff;
@@ -24,31 +24,50 @@ button{
     cursor: pointer;
     transition: all 0.5s;
 }
-button:hover{
+
+button:hover {
     background: #9dd809;
     transform: scale(1.1);
     transition: all 0.5s;
 }
 
-header{
-    background-color: rgba(229, 84, 115, 0.10);
-}
-
-.container{
+.container {
     width: 75%;
     max-width: 1440px;
     margin: 0 auto;
 }
-.banner{
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    font-size: 40px;
+    font-family: Lato;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner .banner-text *{
+
+.banner .banner-text * {
     margin-bottom: 32px;
     max-width: 525px;
 }
-.banner .banner-text h1{
+
+.banner .banner-text h1 {
     font-size: 60px;
     font-weight: 800;
     font-family: Lato;
@@ -56,7 +75,162 @@ header{
     line-height: normal;
 }
 
-.banner .banner-img img{
+.banner .banner-img img {
     width: 100%;
     vertical-align: middle;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+
+.section-content .flower .flower-img {
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    height: 500px;
+    display: flex;
+    align-items: end;
+}
+
+.section-content .flower .flower-img img {
+    width: 100%;
+}
+
+.section-content .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.section-content .flower .blue {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.section-content .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.section-content .flower p {
+    color: #272727;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 20px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+#delevery{
+    padding: 100px 0;
+}
+
+.delevery-content {
+    background-color: #2727270D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 300px;
+    gap: 20px;
+    text-align: center;
+}
+
+.delevery-content .delevery .delevery-img {
+    width: 100%;
+}
+
+.delevery-content .delevery p {
+    color: #272727CC;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#hot-deal {
+    background-color: #E554730D;
+}
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#hot-deal .hot-deal-text {
+    width: 75%;
+    max-width: 550px;
+    text-align: center;
+}
+
+#hot-deal .hot-deal-text * {
+    margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Lato;
+    line-height: normal;
+
+}
+
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+}
+
+#hot-deal .hot-deal-text h2 .important {
+    color: #E55473;
+}
+
+#instragram{
+    padding: 100px 0;
+}
+
+.instragram-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.instragram-img img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#newsletter{
+    /* padding: 100px 0; */
+    margin: 100px 0;
+}
+
+.newsletter-main{
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 100px 0;
+}
+
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
 }
