@@ -234,3 +234,33 @@ header {
     font-size: 16px;
     outline: none;
 }
+
+#footer{
+    background-color: #111010;
+}
+
+.footer-main{
+    padding: 100px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-main *{
+    margin-bottom: 24px;
+}
+
+.footer-main h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-main p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-main .copy-link{
+    color: #FFFFFF66;
+}
